@@ -149,7 +149,7 @@ ifeq ($(findstring $(CFLAGS),-g),)
 	CFLAGS_COMMON += -g3
 	# only add -g3 if no -g flag is in $(CFLAGS)
 endif
-	CPPFLAGS_COMMON += -D_DEBUG
+	CPPFLAGS_COMMON +=# -D_DEBUG
 	LDFLAGS_COMMON +=
 else
 
